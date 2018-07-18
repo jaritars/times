@@ -1,0 +1,122 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  border: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  align-items: center;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;;
+  padding-left: 30px;
+  justify-content:flex-start;
+  width: auto;
+  flex-grow: 1;
+}
+
+.mytimes-h {
+  margin-left: 10px;
+}
+.nav {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+ span a {
+  color: Black;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  margin: 0 auto 80px auto;
+  padding-top: 120px;
+  border: 1px solid black;
+  width: 1250px;
+  justify-content: space-between;
+}
+
+.article1, .article2, .article3, .article4, .article5, .middle1, .middle2, .middle3, .right1, .right2, .right2a {
+  border: 1px solid black;
+}
+
+.cookie {
+  border: 1px solid black;
+}
+
+.mother {
+  display:flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  color: white;
+  height: 300px;
+  width: 630px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.earth {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  color: white;
+  height: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  color: white;
+  height: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.cameras {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  color: white;
+  height: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#largecolumn {
+  display:flex;
+  flex-direction: column;
+  width: 630px;
+  align-items: stretch;
+  border: 1px solid black;
+  margin-right: 30px;
+}
+
+#mediumcolumn {
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: stretch;
+  border: 1px solid black;
+  margin-right: 30px;
+}
+
+#smallcolumn {
+  display:flex;
+  flex-direction: column;
+  width: 240px;
+  align-items: stretch;
+  border: 1px solid black;
+  margin-right: 30px;
+}
